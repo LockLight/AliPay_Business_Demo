@@ -8,24 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CDF512281E1D0F10009807E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF512271E1D0F10009807E9 /* main.m */; };
-		CDF5122B1E1D0F10009807E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF5122A1E1D0F10009807E9 /* AppDelegate.m */; };
-		CDF5122E1E1D0F10009807E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF5122D1E1D0F10009807E9 /* ViewController.m */; };
 		CDF512311E1D0F10009807E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF5122F1E1D0F10009807E9 /* Main.storyboard */; };
 		CDF512331E1D0F10009807E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF512321E1D0F10009807E9 /* Assets.xcassets */; };
 		CDF512361E1D0F10009807E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF512341E1D0F10009807E9 /* LaunchScreen.storyboard */; };
+		CDF512451E1D0F90009807E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF512441E1D0F90009807E9 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDF512231E1D0F10009807E9 /* AliPay-口碑页面Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AliPay-口碑页面Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF512271E1D0F10009807E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CDF512291E1D0F10009807E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDF5122A1E1D0F10009807E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDF5122C1E1D0F10009807E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDF5122D1E1D0F10009807E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDF512301E1D0F10009807E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF512321E1D0F10009807E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF512351E1D0F10009807E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF512371E1D0F10009807E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF512431E1D0F90009807E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF512441E1D0F90009807E9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +55,8 @@
 		CDF512251E1D0F10009807E9 /* AliPay-口碑页面Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CDF512291E1D0F10009807E9 /* AppDelegate.h */,
-				CDF5122A1E1D0F10009807E9 /* AppDelegate.m */,
-				CDF5122C1E1D0F10009807E9 /* ViewController.h */,
-				CDF5122D1E1D0F10009807E9 /* ViewController.m */,
-				CDF5122F1E1D0F10009807E9 /* Main.storyboard */,
-				CDF512321E1D0F10009807E9 /* Assets.xcassets */,
-				CDF512341E1D0F10009807E9 /* LaunchScreen.storyboard */,
-				CDF512371E1D0F10009807E9 /* Info.plist */,
+				CDF5123D1E1D0F90009807E9 /* AliPay_Business */,
+				CDF512421E1D0F90009807E9 /* Other */,
 				CDF512261E1D0F10009807E9 /* Supporting Files */,
 			);
 			path = "AliPay-口碑页面Demo";
@@ -74,9 +65,61 @@
 		CDF512261E1D0F10009807E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDF512321E1D0F10009807E9 /* Assets.xcassets */,
+				CDF512341E1D0F10009807E9 /* LaunchScreen.storyboard */,
+				CDF512371E1D0F10009807E9 /* Info.plist */,
 				CDF512271E1D0F10009807E9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDF5123D1E1D0F90009807E9 /* AliPay_Business */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5123E1E1D0F90009807E9 /* Controller */,
+				CDF5123F1E1D0F90009807E9 /* Model */,
+				CDF512401E1D0F90009807E9 /* Other */,
+				CDF512411E1D0F90009807E9 /* View */,
+			);
+			path = AliPay_Business;
+			sourceTree = "<group>";
+		};
+		CDF5123E1E1D0F90009807E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDF5123F1E1D0F90009807E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDF512401E1D0F90009807E9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CDF512411E1D0F90009807E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5122F1E1D0F10009807E9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDF512421E1D0F90009807E9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CDF512431E1D0F90009807E9 /* AppDelegate.h */,
+				CDF512441E1D0F90009807E9 /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +148,7 @@
 		CDF5121B1E1D0F10009807E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = LockLight;
 				TargetAttributes = {
@@ -151,8 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF5122E1E1D0F10009807E9 /* ViewController.m in Sources */,
-				CDF5122B1E1D0F10009807E9 /* AppDelegate.m in Sources */,
+				CDF512451E1D0F90009807E9 /* AppDelegate.m in Sources */,
 				CDF512281E1D0F10009807E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +209,7 @@
 				CDF512301E1D0F10009807E9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CDF512341E1D0F10009807E9 /* LaunchScreen.storyboard */ = {
