@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD38BC521E1E2C8800795652 /* LLBusinessTopPic.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD38BC511E1E2C8800795652 /* LLBusinessTopPic.xib */; };
+		CD38BC551E1E330600795652 /* LLBusinessTopPic.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38BC541E1E330600795652 /* LLBusinessTopPic.m */; };
+		CDEF0EE31E1DE1AC00445EBF /* LLBusinessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEF0EE21E1DE1AC00445EBF /* LLBusinessModel.m */; };
 		CDF512281E1D0F10009807E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF512271E1D0F10009807E9 /* main.m */; };
 		CDF512311E1D0F10009807E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF5122F1E1D0F10009807E9 /* Main.storyboard */; };
 		CDF512331E1D0F10009807E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF512321E1D0F10009807E9 /* Assets.xcassets */; };
 		CDF512361E1D0F10009807E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF512341E1D0F10009807E9 /* LaunchScreen.storyboard */; };
 		CDF512451E1D0F90009807E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF512441E1D0F90009807E9 /* AppDelegate.m */; };
+		CDF5124B1E1D2453009807E9 /* LLBusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF5124A1E1D2453009807E9 /* LLBusinessCell.m */; };
+		CDF512521E1D2517009807E9 /* LLLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF512511E1D2517009807E9 /* LLLevelView.m */; };
+		CDF512541E1D2898009807E9 /* business.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDF512531E1D2898009807E9 /* business.plist */; };
+		CDF512571E1D34DA009807E9 /* LLBusinessController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF512561E1D34DA009807E9 /* LLBusinessController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD38BC511E1E2C8800795652 /* LLBusinessTopPic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLBusinessTopPic.xib; sourceTree = "<group>"; };
+		CD38BC531E1E330600795652 /* LLBusinessTopPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessTopPic.h; sourceTree = "<group>"; };
+		CD38BC541E1E330600795652 /* LLBusinessTopPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessTopPic.m; sourceTree = "<group>"; };
+		CDEF0EE11E1DE1AC00445EBF /* LLBusinessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessModel.h; sourceTree = "<group>"; };
+		CDEF0EE21E1DE1AC00445EBF /* LLBusinessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessModel.m; sourceTree = "<group>"; };
 		CDF512231E1D0F10009807E9 /* AliPay-口碑页面Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AliPay-口碑页面Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF512271E1D0F10009807E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDF512301E1D0F10009807E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -23,6 +35,13 @@
 		CDF512371E1D0F10009807E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF512431E1D0F90009807E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDF512441E1D0F90009807E9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF512491E1D2453009807E9 /* LLBusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessCell.h; sourceTree = "<group>"; };
+		CDF5124A1E1D2453009807E9 /* LLBusinessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessCell.m; sourceTree = "<group>"; };
+		CDF512501E1D2517009807E9 /* LLLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLevelView.h; sourceTree = "<group>"; };
+		CDF512511E1D2517009807E9 /* LLLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLevelView.m; sourceTree = "<group>"; };
+		CDF512531E1D2898009807E9 /* business.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = business.plist; sourceTree = "<group>"; };
+		CDF512551E1D34DA009807E9 /* LLBusinessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessController.h; sourceTree = "<group>"; };
+		CDF512561E1D34DA009807E9 /* LLBusinessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +95,10 @@
 		CDF5123D1E1D0F90009807E9 /* AliPay_Business */ = {
 			isa = PBXGroup;
 			children = (
-				CDF5123E1E1D0F90009807E9 /* Controller */,
-				CDF5123F1E1D0F90009807E9 /* Model */,
 				CDF512401E1D0F90009807E9 /* Other */,
+				CDF5123F1E1D0F90009807E9 /* Model */,
 				CDF512411E1D0F90009807E9 /* View */,
+				CDF5123E1E1D0F90009807E9 /* Controller */,
 			);
 			path = AliPay_Business;
 			sourceTree = "<group>";
@@ -87,6 +106,8 @@
 		CDF5123E1E1D0F90009807E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CDF512551E1D34DA009807E9 /* LLBusinessController.h */,
+				CDF512561E1D34DA009807E9 /* LLBusinessController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +115,8 @@
 		CDF5123F1E1D0F90009807E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDEF0EE11E1DE1AC00445EBF /* LLBusinessModel.h */,
+				CDEF0EE21E1DE1AC00445EBF /* LLBusinessModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,6 +124,7 @@
 		CDF512401E1D0F90009807E9 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CDF512531E1D2898009807E9 /* business.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -108,7 +132,13 @@
 		CDF512411E1D0F90009807E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDF5124C1E1D2487009807E9 /* Star */,
 				CDF5122F1E1D0F10009807E9 /* Main.storyboard */,
+				CD38BC511E1E2C8800795652 /* LLBusinessTopPic.xib */,
+				CD38BC531E1E330600795652 /* LLBusinessTopPic.h */,
+				CD38BC541E1E330600795652 /* LLBusinessTopPic.m */,
+				CDF512491E1D2453009807E9 /* LLBusinessCell.h */,
+				CDF5124A1E1D2453009807E9 /* LLBusinessCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,6 +150,15 @@
 				CDF512441E1D0F90009807E9 /* AppDelegate.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		CDF5124C1E1D2487009807E9 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				CDF512501E1D2517009807E9 /* LLLevelView.h */,
+				CDF512511E1D2517009807E9 /* LLLevelView.m */,
+			);
+			path = Star;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF512541E1D2898009807E9 /* business.plist in Resources */,
 				CDF512361E1D0F10009807E9 /* LaunchScreen.storyboard in Resources */,
 				CDF512331E1D0F10009807E9 /* Assets.xcassets in Resources */,
+				CD38BC521E1E2C8800795652 /* LLBusinessTopPic.xib in Resources */,
 				CDF512311E1D0F10009807E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,8 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD38BC551E1E330600795652 /* LLBusinessTopPic.m in Sources */,
 				CDF512451E1D0F90009807E9 /* AppDelegate.m in Sources */,
+				CDF512521E1D2517009807E9 /* LLLevelView.m in Sources */,
+				CDF512571E1D34DA009807E9 /* LLBusinessController.m in Sources */,
 				CDF512281E1D0F10009807E9 /* main.m in Sources */,
+				CDF5124B1E1D2453009807E9 /* LLBusinessCell.m in Sources */,
+				CDEF0EE31E1DE1AC00445EBF /* LLBusinessModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +400,7 @@
 				CDF5123C1E1D0F10009807E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
